@@ -1,0 +1,83 @@
+Analysis of the perceptron model:
+
+The perceptron model is a modification to the basic MP neuron model.
+It is a fail and learn model which takes into consideration the individual input weights, so as compared to the basic MP neuron model it does not consider all the inputs to be of same weight.
+
+Intuition of the perceptron learning algo:
+
+W  W + (learning rate)*(Expected Output – Actual Output)*X
+The above line lets the perceptron train on itself to adjust the weights and bias 
+To result into expected output.
+
+Here are some examples for the perceptron trying to learn the OR logic gate model
+it takes 8 iteration in this case 
+
+weights: [0. 0.]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.01
+weights: [0.01 0.01]
+bias 0.01
+weights: [0.01 0.01]
+bias 0.01
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+weights: [0.01 0.01]
+bias 0.0
+Output:
+1
+0
+1
+1
